@@ -1,2 +1,3 @@
-export const selectontacts = (state) => state.contacts.items;
-export const selectFilter = (state) => state.filter.name;
+// перенести у відповідності до ТЗ
+// Створити окремі кейси.
+//Пост від ментора(прочитати)

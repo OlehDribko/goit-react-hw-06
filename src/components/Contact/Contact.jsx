@@ -1,9 +1,10 @@
 import { useDispatch } from "react-redux";
 import style from "./Contact.module.css";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ contact }) => {
   const dispatch = useDispatch();
+
   return (
     <div className={style.contactBox}>
       <div>
